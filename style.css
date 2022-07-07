@@ -1,0 +1,75 @@
+h1{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:fixed;
+    color: azure;
+    font-size: 2.78rem;
+}
+div{
+    border: 100% solid;
+    padding: 10px;
+    width: 500px;
+    margin: 40px;
+    display: inline-block;
+    
+}
+h1::first-letter {
+    font-size: 5rem;
+    color: #c51c35;
+}
+#red{
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    padding:20;
+    padding-left: 30;
+    margin: 50;
+    max-width: 90;
+    border-style: solid;
+    border-width: 5;
+    border-color: black;
+    font-size: 20;
+    background-color: azure;
+}
+#red h4{
+    color: aliceblue;
+}
+#blue{
+    background-color: aliceblue;
+}
+#yellow{
+    padding-left: 20;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: fixed;
+   
+}
+.abc{
+    background-image: url( './b.svg' );
+}
+.bg {
+    background-image: url("./b.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    padding-left: 50;
+    font-style: italic;
+    font-family:sans-serif;
+    line-height: 1.3;
+    color: rgba(245, 253, 253, 0.815);
+    font-size: 20;
+}
+.cont{
+    padding:20;
+    padding-left: 30;
+    margin: 20;
+    max-width: 60;
+    border-style: solid;
+    border-width: 5;
+    border-color: black;
+    font-size: 20;
+}
